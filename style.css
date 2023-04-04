@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    padding: 30px;
+    
+}
+
+/* flex */
+
+.flex-container {
+    /* border: 3px solid black; */
+    display: flex;
+    height: 300px;
+    gap: 20px;
+    color: white;
+}
+
+.flex-container main {
+    width: 50%;
+    background: rgb(252, 115, 81);
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.flex-container aside {
+    width: 50%;
+    
+}
+
+.flex-container .aside-1  {
+    height: 48.3%;
+    background: rgb(252, 115, 81);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container .aside-2  {
+    display: flex;
+    padding-top: 10px;
+    height: 48.3%;   
+     
+}
+
+.flex-container .aside-2 .item-2 {
+    width: 50%;
+    background: rgb(252, 115, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container .aside-2 .item-1 {
+    width: 50%;
+    margin-right: 20px;
+    background: rgb(252, 115, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* grid */
+
+.grid-container {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 49% 23.4% 23.4%;
+    grid-template-rows: 50% 50%;
+    margin-top: 20px;
+    grid-gap: 20px;
+}
+
+.grid-container .aside-1 {
+    grid-row: span 2;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.grid-container .aside-2 {
+    grid-column: span 2;
+    height: 100%;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container .aside-3 {
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container .aside-4 {
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
